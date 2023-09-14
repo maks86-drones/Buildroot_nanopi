@@ -1,6 +1,0 @@
-#!/bin/sh
-
-mkdir /backup
-mount -t vfat -o fmask=0177 /dev/mmcblk0p2 /backup
-
-cp /backup/wpa_supplicant.conf /etc
